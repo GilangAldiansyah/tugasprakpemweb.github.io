@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  height: 450px;
+  background-color: #152951;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: american captain;
+  font-size: 30px;
+  padding-top: 30px;
+  color: #eee;
+}
+
+h4 {
+  font-family: american captain;
+  margin-top: -30px;
+  font-size: 25px;
+  color: #eee;
+}
+
+ul li {
+  list-style-type: none;
+  margin-right: 32px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: american captain;
+}
+
+.soal1 {
+  width: 320px;
+  height: 40px;
+  padding-top: 20px;
+  background-color: #284a6e;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.soal1:hover {
+  background-color: #01909e;
+  transform: scale(1.1);
+}
+
+.soal2 {
+  width: 320px;
+  height: 40px;
+  padding-top: 20px;
+  background-color: #284a6e;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.soal2:hover {
+  background-color: #01909e;
+  transform: scale(1.1);
+}
+
+.soal3 {
+  width: 320px;
+  height: 40px;
+  padding-top: 20px;
+  background-color: #284a6e;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.soal3:hover {
+  background-color: #01909e;
+  transform: scale(1.1);
+}
+
+.footer {
+  color: #eee;
+  font-family: arial;
+  font-size: 10px;
+  margin-top: 90px;
+}

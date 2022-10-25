@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>soal2</title>
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#1').dblclick(function () {
+          $('#1').toggleClass('merah');
+        });
+        $('#2').dblclick(function () {
+          $('#2').toggleClass('merah');
+        });
+        $('#3').dblclick(function () {
+          $('#3').toggleClass('merah');
+        });
+        $('#4').dblclick(function () {
+          $('#4').toggleClass('merah');
+        });
+      });
+    </script>
+    <style>
+      .kotak {
+        width: 80px;
+        height: 80px;
+        background-color: yellow;
+        display: inline-block;
+        margin-right: 5px;
+        border: 2px solid black;
+      }
+
+      .merah {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Klik 2x pada setiap kotak untuk mengubah warnanya</p>
+    <div class="kotak" id="1"></div>
+    <div class="kotak" id="2"></div>
+    <div class="kotak" id="3"></div>
+    <div class="kotak" id="4"></div>
+  </body>
+</html>
